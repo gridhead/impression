@@ -1,4 +1,11 @@
 function render_graphs () {
+    let windmode = new bootstrap.Modal(
+        document.getElementById(
+            "windmode"
+        ), {
+            keyboard: true
+        }
+    )
     var graflist = [
         {
             "elements": orgndata,
@@ -72,6 +79,10 @@ function render_graphs () {
         };
         chartobj.on('click', function(param) {
             console.dir(param);
+            document.getElementById("modename").innerText = param["data"]["name"];
+            document.getElementById("modedesc").innerText = param["data"]["value"];
+            document.getElementById("modextra").innerText = param["data"]["extra"];
+            windmode.show();
         });
         chartobj.setOption(option);
         option && chartobj.setOption(option);

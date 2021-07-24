@@ -7,7 +7,8 @@ var orgndata = {
             "x": 0,
             "y": 0,
             "value": "Everything",
-            "category": 0
+            "category": 0,
+            "extra": ""
         },
         {
             "id": "finf",
@@ -16,7 +17,8 @@ var orgndata = {
             "x": 0,
             "y": 25,
             "value": "Engineering",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "fdes",
@@ -25,7 +27,8 @@ var orgndata = {
             "x": 0,
             "y": -25,
             "value": "Creativity",
-            "category": 2
+            "category": 2,
+            "extra": ""
         },
         {
             "id": "pgmt",
@@ -34,7 +37,8 @@ var orgndata = {
             "x": 21.6506351,
             "y": 12.5,
             "value": "Direction",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "join",
@@ -43,7 +47,8 @@ var orgndata = {
             "x": -21.6506351,
             "y": 12.5,
             "value": "Contributors",
-            "category": 4
+            "category": 4,
+            "extra": ""
         },
         {
             "id": "cmop",
@@ -52,7 +57,8 @@ var orgndata = {
             "x": 21.6506351,
             "y": -12.5,
             "value": "Insights",
-            "category": 5
+            "category": 5,
+            "extra": ""
         },
         {
             "id": "ospo",
@@ -61,7 +67,8 @@ var orgndata = {
             "x": -21.6506351,
             "y": -12.5,
             "value": "Policies",
-            "category": 6
+            "category": 6,
+            "extra": ""
         }
     ],
     "links": [

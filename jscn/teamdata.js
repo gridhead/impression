@@ -7,7 +7,8 @@ var teamdata = {
             "x": 0,
             "y": 0,
             "value": "Everything",
-            "category": 0
+            "category": 0,
+            "extra": "Websites and Apps Team"
         },
         {
             "id": "akas",
@@ -16,7 +17,8 @@ var teamdata = {
             "x": 0,
             "y": -25,
             "value": "Objective Co-lead",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "ramy",
@@ -25,7 +27,8 @@ var teamdata = {
             "x": 0,
             "y": 25,
             "value": "Objective Co-lead",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "back",
@@ -43,7 +46,8 @@ var teamdata = {
             "x": -25,
             "y": 0,
             "value": "Create",
-            "category": 2
+            "category": 2,
+            "extra": ""
         },
         {
             "id": "onur",
@@ -52,7 +56,8 @@ var teamdata = {
             "x": 25,
             "y": 25,
             "value": "thunderbirdtr",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "vipu",
@@ -61,7 +66,8 @@ var teamdata = {
             "x": 25,
             "y": -25,
             "value": "siddharthvipul",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "jank",
@@ -70,7 +76,8 @@ var teamdata = {
             "x": 50,
             "y": 0,
             "value": "copperi",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "mich",
@@ -79,7 +86,8 @@ var teamdata = {
             "x": 42.6776695,
             "y": 17.6776695,
             "value": "misc",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "jont",
@@ -88,7 +96,8 @@ var teamdata = {
             "x": 42.6776695,
             "y": -17.6776695,
             "value": "jtrossba",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "just",
@@ -97,7 +106,8 @@ var teamdata = {
             "x": -25,
             "y": 25,
             "value": "jflory7",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "mari",
@@ -106,7 +116,8 @@ var teamdata = {
             "x": -25,
             "y": -25,
             "value": "riecatnor",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "ashl",
@@ -115,7 +126,8 @@ var teamdata = {
             "x": -50,
             "y": 0,
             "value": "lilyx",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "saya",
@@ -124,7 +136,8 @@ var teamdata = {
             "x": -42.6776695,
             "y": 17.6776695,
             "value": "bugsmith",
-            "category": 3
+            "category": 3,
+            "extra": ""
         },
         {
             "id": "carl",
@@ -133,7 +146,8 @@ var teamdata = {
             "x": -42.6776695,
             "y": -17.6776695,
             "value": "carlschwann",
-            "category": 3
+            "category": 3,
+            "extra": ""
         }
     ],
     "links": [
