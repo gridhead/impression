@@ -7,7 +7,8 @@ var sitedata = {
             "x": 0,
             "y": 0,
             "value": "Everything",
-            "category": 0
+            "category": 0,
+            "extra": ""
         },
         {
             "id": "altd",
@@ -16,7 +17,8 @@ var sitedata = {
             "x": 0,
             "y": 25,
             "value": "https://alt.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "getf",
@@ -25,7 +27,8 @@ var sitedata = {
             "x": 14.6946313,
             "y": 20.2254249,
             "value": "https://getfedora.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "spin",
@@ -34,7 +37,8 @@ var sitedata = {
             "x": 23.7764129,
             "y": 7.72542486,
             "value": "https://spins.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "armf",
@@ -43,7 +47,8 @@ var sitedata = {
             "x": 23.7764129,
             "y": -7.72542486,
             "value": "https://arm.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "budg",
@@ -52,7 +57,8 @@ var sitedata = {
             "x": 14.6946313,
             "y": -20.2254249,
             "value": "https://budget.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "docs",
@@ -61,7 +67,8 @@ var sitedata = {
             "x": 0,
             "y": -25,
             "value": "https://docs.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "flok",
@@ -70,7 +77,8 @@ var sitedata = {
             "x": -14.6946313,
             "y": 20.2254249,
             "value": "https://flocktofedora.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "star",
@@ -79,7 +87,8 @@ var sitedata = {
             "x": -23.7764129,
             "y": 7.72542486,
             "value": "https://start.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "comm",
@@ -88,7 +97,8 @@ var sitedata = {
             "x": -23.7764129,
             "y": -7.72542486,
             "value": "http://fedoracommunity.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         },
         {
             "id": "labs",
@@ -97,7 +107,8 @@ var sitedata = {
             "x": -14.6946313,
             "y": -20.2254249,
             "value": "https://labs.fedoraproject.org/",
-            "category": 1
+            "category": 1,
+            "extra": ""
         }
     ],
     "links": [
