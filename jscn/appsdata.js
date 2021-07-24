@@ -7,8 +7,7 @@ var appsdata = {
             "x": 0,
             "y": 0,
             "value": "Everything",
-            "category": 0,
-            "extra": "Websites and Apps Team"
+            "category": 0
         },
         {
             "id": "mote",
@@ -16,9 +15,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": 0,
             "y": 25,
-            "value": "https://meetbot.fedoraproject.org",
-            "category": 1,
-            "extra": "Møte allows the Fedora community to search and explore IRC meetings"
+            "value": "https://alt.fedoraproject.org/",
+            "category": 1
         },
         {
             "id": "cale",
@@ -26,9 +24,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": 14.6946313,
             "y": 20.2254249,
-            "value": "https://calendar.fedoraproject.org",
-            "category": 1,
-            "extra": "This project is a Flask application. The calendars and meetings are stored into a relational database using SQLAlchemy as Object Relational Mapper (ORM) and alembic to handle database scheme changes. fedocal provides an iCal feed for each calendar and relies on python-vobject for this. Finally, pytz is used to handle the timezone changes and dateutil to allow date manipulation over months/years."
+            "value": "https://getfedora.org/",
+            "category": 1
         },
         {
             "id": "nuan",
@@ -36,9 +33,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": 23.7764129,
             "y": 7.72542486,
-            "value": "https://apps.fedoraproject.org/nuancier",
-            "category": 1,
-            "extra": "Nuancier is a simple voting application for the supplementary wallpapers included in Fedora."
+            "value": "https://spins.fedoraproject.org/",
+            "category": 1
         },
         {
             "id": "elec",
@@ -46,9 +42,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": 23.7764129,
             "y": -7.72542486,
-            "value": "https://elections.fedoraproject.org/",
-            "category": 1,
-            "extra": "The Fedora Project is a community- driven project. It has a number of steering committees whose responsibilities are to drive the project forward. These committees are elected among volunteers of the community and by the community members. The present application is meant to hold these elections."
+            "value": "https://arm.fedoraproject.org/",
+            "category": 1
         },
         {
             "id": "askn",
@@ -56,9 +51,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": 14.6946313,
             "y": -20.2254249,
-            "value": "https://whatcanidoforfedora.org/",
-            "category": 1,
-            "extra": "Ask not what Fedora can do for you, but what you can do for Fedora"
+            "value": "https://budget.fedoraproject.org/",
+            "category": 1
         },
         {
             "id": "badg",
@@ -66,9 +60,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": 0,
             "y": -25,
-            "value": "https://badges.fedoraproject.org/",
-            "category": 1,
-            "extra": "Tahrir is an application used by the Fedora Project for issuing Open Badges."
+            "value": "https://docs.fedoraproject.org/",
+            "category": 1
         },
         {
             "id": "amba",
@@ -76,9 +69,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": -14.6946313,
             "y": 20.2254249,
-            "value": "https://fedoraproject.org/membership-map/ambassadors.html",
-            "category": 1,
-            "extra": "Ambassadors are the representatives of Fedora. Ambassadors ensure the public understand Fedora's principles and the work that Fedora is doing. Additionally Ambassadors are responsible for helping to grow the contributor base, and to act as a liaison between other FLOSS projects and the Fedora community."
+            "value": "https://flocktofedora.org/",
+            "category": 1
         },
         {
             "id": "easy",
@@ -86,9 +78,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": -23.7764129,
             "y": 7.72542486,
-            "value": "https://fedoraproject.org/easyfix/",
-            "category": 1,
-            "extra": "Easyfix houses self-contained and well-documented issues that newcomers can work on in the community"
+            "value": "https://start.fedoraproject.org/",
+            "category": 1
         },
         {
             "id": "maga",
@@ -96,9 +87,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": -23.7764129,
             "y": -7.72542486,
-            "value": "https://fedoramagazine.org/",
-            "category": 1,
-            "extra": "Guides, information, and news about the Fedora operating system for users, developers, system administrators, and community members."
+            "value": "http://fedoracommunity.org/",
+            "category": 1
         },
         {
             "id": "blog",
@@ -106,9 +96,8 @@ var appsdata = {
             "symbolSize": 50,
             "x": -14.6946313,
             "y": -20.2254249,
-            "value": "https://communityblog.fedoraproject.org/",
-            "category": 1,
-            "extra": "News and updates for about the Fedora Project community that develops supports and promotes Fedora."
+            "value": "https://labs.fedoraproject.org/",
+            "category": 1
         }
     ],
     "links": [
