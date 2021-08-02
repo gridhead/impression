@@ -79,10 +79,12 @@ function render_graphs () {
         };
         chartobj.on('click', function(param) {
             console.dir(param);
-            document.getElementById("modename").innerText = param["data"]["name"];
-            document.getElementById("modedesc").innerText = param["data"]["value"];
-            document.getElementById("modextra").innerText = param["data"]["extra"];
-            windmode.show();
+            if (param["data"]["name"] !== undefined) {
+                document.getElementById("modename").innerText = param["data"]["name"];
+                document.getElementById("modedesc").innerText = param["data"]["value"];
+                document.getElementById("modextra").innerText = param["data"]["extra"];
+                windmode.show();
+            }
         });
         chartobj.setOption(option);
         option && chartobj.setOption(option);
