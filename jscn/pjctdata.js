@@ -8,7 +8,7 @@ var pjctdata = {
             "y": 0,
             "value": "Everything",
             "category": 0,
-            "extra": ""
+            "extra": "Everything"
         },
         {
             "id": "apps",
@@ -18,7 +18,7 @@ var pjctdata = {
             "y": 12.5,
             "value": "10",
             "category": 1,
-            "extra": ""
+            "extra": "We support 10 application projects"
         },
         {
             "id": "site",
@@ -28,7 +28,7 @@ var pjctdata = {
             "y": 12.5,
             "value": "10",
             "category": 1,
-            "extra": ""
+            "extra": "We support 10 website projects"
         },
         {
             "id": "misc",
@@ -38,7 +38,7 @@ var pjctdata = {
             "y": -25,
             "value": "2",
             "category": 1,
-            "extra": ""
+            "extra": "We performed 2 miscellaneous operations"
         }
     ],
     "links": [
