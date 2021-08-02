@@ -7,6 +7,9 @@
         <script src="https://cdn.jsdelivr.net/npm/echarts@5.1.2/dist/echarts.min.js" integrity="sha256-TI0rIaxop+pDlHNVI6kDCFvmpxNYUnVH/SMjknZ/W0Y=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Overpass:ital@0;1&display=swap" rel="stylesheet">
         <script src="jscn/orgndata.js"></script>
         <script src="jscn/teamdata.js"></script>
         <script src="jscn/pjctdata.js"></script>
@@ -14,59 +17,99 @@
         <script src="jscn/appsdata.js"></script>
         <script src="jscn/makegraf.js"></script>
         <title>Fedora Websites and Apps</title>
+        <style>
+            .head {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+            }
+            .bold {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+            }
+            .body {
+                font-family: 'Overpass', sans-serif;
+                font-weight: normal;
+            }
+            .ital {
+                font-family: 'Overpass', sans-serif;
+                font-style: italic;
+            }
+        </style>
     </head>
     <body onload="render_graphs();">
         <nav class="navbar navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand">Fedora Websites and Apps</a>
+                <a class="navbar-brand bold">Fedora Websites and Apps</a>
                 <span class="d-flex">
-                    <a href="https://getfedora.org/" class="btn btn-outline-success" type="submit">Try Fedora</a>
+                    <a href="https://getfedora.org/" class="btn btn-outline-success body" type="submit">Try Fedora</a>
                 </span>
             </div>
         </nav>
         <div class="container" style="margin-top: 1vh;">
             <ul class="nav nav-tabs" id="tlst" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="homebutn" data-bs-toggle="tab" data-bs-target="#homepage" type="button" role="tab" aria-controls="contact" aria-selected="false">Start</button>
+                    <button class="nav-link active body" id="homebutn" data-bs-toggle="tab" data-bs-target="#homepage" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                        Start
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="orgnbutn" data-bs-toggle="tab" data-bs-target="#orgnpage" type="button" role="tab" aria-controls="home" aria-selected="true">Organization</button>
+                    <button class="nav-link body" id="orgnbutn" data-bs-toggle="tab" data-bs-target="#orgnpage" type="button" role="tab" aria-controls="home" aria-selected="true">
+                        Organization
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="teambutn" data-bs-toggle="tab" data-bs-target="#teampage" type="button" role="tab" aria-controls="profile" aria-selected="false">Team</button>
+                    <button class="nav-link body" id="teambutn" data-bs-toggle="tab" data-bs-target="#teampage" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                        Team
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pjctbutn" data-bs-toggle="tab" data-bs-target="#pjctpage" type="button" role="tab" aria-controls="contact" aria-selected="false">Projects</button>
+                    <button class="nav-link body" id="pjctbutn" data-bs-toggle="tab" data-bs-target="#pjctpage" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                        Projects
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="sitebutn" data-bs-toggle="tab" data-bs-target="#sitepage" type="button" role="tab" aria-controls="contact" aria-selected="false">Websites</button>
+                    <button class="nav-link body" id="sitebutn" data-bs-toggle="tab" data-bs-target="#sitepage" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                        Websites
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="appsbutn" data-bs-toggle="tab" data-bs-target="#appspage" type="button" role="tab" aria-controls="contact" aria-selected="false">Applications</button>
+                    <button class="nav-link body" id="appsbutn" data-bs-toggle="tab" data-bs-target="#appspage" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                        Applications
+                    </button>
                 </li>
             </ul>
             <div class="tab-content" id="tcnt">
                 <div class="tab-pane fade show active" id="homepage" role="tabpanel" aria-labelledby="homebutn">
                     <div style="margin-top: 1vh;">
                         <hr>
-                        <h1>Fedora Websites & Apps Community Revamp</h1>
+                        <h1 class="bold">
+                            Fedora Websites & Apps Community Revamp
+                        </h1>
                         <hr>
-                        <h5>Mission</h5>
-                        <p>
+                        <h5 class="head">
+                            Mission
+                        </h5>
+                        <p class="body">
                             To reboot the websites team to include webapps in the scope of work and set up 
                             the team so that they can grow capacity in the future to build new exciting apps 
                             to meet community needs.
                         </p>
                         <hr>
                         <div class="card text-dark bg-light mb-3">
-                            <div class="card-header" style="font-weight: bold;">Objective Logic Model</div>
+                            <div class="card-header" style="font-weight: bold;">
+                                <span class="head">
+                                    Objective Logic Model
+                                </span>
+                            </div>
                             <div class="card-body">
                                 <img style="width:100%;" src="https://fedoraproject.org/w/uploads/thumb/1/19/Websitesandappsrevamp_logicmodel.png/800px-Websitesandappsrevamp_logicmodel.png"/>
                             </div>
                         </div>
                         <hr>
-                        <h5>Vision</h5>
-                        <p>
+                        <h5 class="head">
+                            Vision
+                        </h5>
+                        <p class="body">
                             Fedora has an active, engaged team that takes care of our main websites and all 
                             of our various community webapps. New folks who show up with an interest in code 
                             contributions find this an easy place to jump in. Members of the team are empowered 
@@ -74,8 +117,10 @@
                             project related to getting those things done.
                         </p>
                         <hr>
-                        <h5>Outcomes</h5>
-                        <ol>
+                        <h5 class="head">
+                            Outcomes
+                        </h5>
+                        <ol class="body">
                             <li>The team is happy, excited, recognized, and rewarded.</li>
                             <li>The team has experience and ability with updating legacy Fedora webapps and sites.</li>
                             <li>The Fedora websites are reliably updated when new Fedora Linux releases come out.</li>
@@ -87,8 +132,10 @@
                             <li>Websites team is participating in the Mindshare Committee.</li>
                         </ol>
                         <hr>
-                        <h5>Outputs</h5>
-                        <ol>
+                        <h5 class="head">
+                            Outputs
+                        </h5>
+                        <ol class="body">
                             <li>Badges! Team swag!</li>
                             <li>At least one webapp (møte) is modernized, as well as one web site (spins/labs).</li>
                             <li>A documented plan for updating websites on new Fedora Linux releases, with understood team roles and resposibilities.</li>
@@ -100,8 +147,10 @@
                             <li>Fedora Mindshare Committee has an active, engaged representative to represent Fedora's Websites & Apps community.</li>
                         </ol>
                         <hr>
-                        <h5>Activities</h5>
-                        <ol>
+                        <h5 class="head">
+                            Activities
+                        </h5>
+                        <ol class="body">
                             <li>Create team badges https://badges.fedoraproject.org/badge/rock-the-web%21 Request team swag.</li>
                             <li>Develop new version of møte. Update [spins website](https://spins.fedoraproject.org) to new framework. [Link to tasks]</li>
                             <li>Document new release procedures and roles. Document specific team member responsibilities for release days and other critical needs.</li>
@@ -138,17 +187,23 @@
                     <div class="modal-body">
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <h1 id="modename">UNTITLED</h1>
+                                <h1 id="modename" class="bold">
+                                    UNTITLED
+                                </h1>
                             </li>
                             <li class="list-group-item">
-                                <div id="modedesc">UNTITLED</div>
+                                <div id="modedesc" class="ital">
+                                    UNTITLED
+                                </div>
                             </li>
                             <li class="list-group-item">
-                                <div id="modextra">UNTITLED</div>
+                                <div id="modextra" class="body">
+                                    UNTITLED
+                                </div>
                             </li>
                         </ul>
-                        <div style="margin-top: 2.5%; text-align: center;">
-                            CLICK OUTSIDE THE MODAL TO DISMISS THIS
+                        <div style="margin-top: 2.5%; text-align: center;" class="head">
+                            CLICK OUTSIDE TO DISMISS THIS
                         </div>
                     </div>
                 </div>
