@@ -8,7 +8,7 @@ var orgndata = {
             "y": 0,
             "value": "Everything",
             "category": 0,
-            "extra": ""
+            "extra": "Everything"
         },
         {
             "id": "finf",
@@ -18,7 +18,7 @@ var orgndata = {
             "y": 25,
             "value": "Engineering",
             "category": 1,
-            "extra": ""
+            "extra": "The Infrastructure Team consists of dedicated volunteers and professionals managing the servers, building the tools and utilities, and creating new applications to make Fedora development a smoother process."
         },
         {
             "id": "fdes",
@@ -28,7 +28,7 @@ var orgndata = {
             "y": -25,
             "value": "Creativity",
             "category": 2,
-            "extra": ""
+            "extra": "Fedora Design Team, the Fedora Project's in-house creative agency covering everything from logos and branding, to icons, to print media and swag design, to UX design a usability testing and assessment."
         },
         {
             "id": "pgmt",
@@ -38,7 +38,7 @@ var orgndata = {
             "y": 12.5,
             "value": "Direction",
             "category": 3,
-            "extra": ""
+            "extra": "The team is a program management resource for other Fedora teams and backs up certain key functions of the FPgM in the event of their unavailability."
         },
         {
             "id": "join",
@@ -48,7 +48,7 @@ var orgndata = {
             "y": 12.5,
             "value": "Contributors",
             "category": 4,
-            "extra": ""
+            "extra": "The Fedora Join Special Interest Group (SIG) aims to set up and maintain channels that let prospective contributors engage with the community."
         },
         {
             "id": "cmop",
@@ -58,7 +58,7 @@ var orgndata = {
             "y": -12.5,
             "value": "Insights",
             "category": 5,
-            "extra": ""
+            "extra": "Community Operations (CommOps) provides tools, resources, and utilities for different sub-projects of Fedora to improve effective communication."
         },
         {
             "id": "ospo",
@@ -68,7 +68,7 @@ var orgndata = {
             "y": -12.5,
             "value": "Policies",
             "category": 6,
-            "extra": ""
+            "extra": "OSPO's role is to align the efforts of all relevant parts of an organization—engineering, sales, marketing, content creation—toward making open source methodologies and outputs successful."
         }
     ],
     "links": [
