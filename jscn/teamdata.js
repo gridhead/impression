@@ -18,7 +18,7 @@ var teamdata = {
             "y": -25,
             "value": "Objective Co-lead",
             "category": 1,
-            "extra": ""
+            "extra": "Associate Software Engineer at Red Hat CPE"
         },
         {
             "id": "ramy",
@@ -28,7 +28,7 @@ var teamdata = {
             "y": 25,
             "value": "Objective Co-lead",
             "category": 1,
-            "extra": ""
+            "extra": "Contributor at Fedora Project"
         },
         {
             "id": "back",
@@ -37,7 +37,8 @@ var teamdata = {
             "x": 25,
             "y": 0,
             "value": "Maintain",
-            "category": 2
+            "category": 2,
+            "extra": "Backend/Infrastructure"
         },
         {
             "id": "fron",
@@ -47,7 +48,7 @@ var teamdata = {
             "y": 0,
             "value": "Create",
             "category": 2,
-            "extra": ""
+            "extra": "Frontend/Design"
         },
         {
             "id": "onur",
@@ -57,7 +58,7 @@ var teamdata = {
             "y": 25,
             "value": "thunderbirdtr",
             "category": 3,
-            "extra": ""
+            "extra": "Ambassador and Packager at Fedora Project"
         },
         {
             "id": "vipu",
@@ -67,7 +68,7 @@ var teamdata = {
             "y": -25,
             "value": "siddharthvipul",
             "category": 3,
-            "extra": ""
+            "extra": "Software Engineer at Red Hat CPE"
         },
         {
             "id": "jank",
@@ -77,7 +78,7 @@ var teamdata = {
             "y": 0,
             "value": "copperi",
             "category": 3,
-            "extra": ""
+            "extra": "Contributor at Fedora Project"
         },
         {
             "id": "mich",
@@ -87,7 +88,7 @@ var teamdata = {
             "y": 17.6776695,
             "value": "misc",
             "category": 3,
-            "extra": ""
+            "extra": "Principal Systems Administrator at Red Hat OSPO"
         },
         {
             "id": "jont",
@@ -97,7 +98,7 @@ var teamdata = {
             "y": -17.6776695,
             "value": "jtrossba",
             "category": 3,
-            "extra": ""
+            "extra": "System Administration Intern at Red Hat OSPO"
         },
         {
             "id": "just",
@@ -107,7 +108,7 @@ var teamdata = {
             "y": 25,
             "value": "jflory7",
             "category": 3,
-            "extra": ""
+            "extra": "FOSS Tech Advisor at UNICEF, Advisory Board Member at Open@RIT"
         },
         {
             "id": "mari",
@@ -117,7 +118,7 @@ var teamdata = {
             "y": -25,
             "value": "riecatnor",
             "category": 3,
-            "extra": ""
+            "extra": "Fedora Community Action and Impact Coordinator"
         },
         {
             "id": "ashl",
@@ -127,7 +128,7 @@ var teamdata = {
             "y": 0,
             "value": "lilyx",
             "category": 3,
-            "extra": ""
+            "extra": "Contributor at Fedora Project"
         },
         {
             "id": "saya",
@@ -137,7 +138,7 @@ var teamdata = {
             "y": 17.6776695,
             "value": "bugsmith",
             "category": 3,
-            "extra": ""
+            "extra": "Principal Software Engineer at Red Hat"
         },
         {
             "id": "carl",
@@ -147,7 +148,7 @@ var teamdata = {
             "y": -17.6776695,
             "value": "carlschwann",
             "category": 3,
-            "extra": ""
+            "extra": "Developer at KDE Community"
         }
     ],
     "links": [
