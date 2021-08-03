@@ -92,25 +92,33 @@ var orgndata = {
     ],
     "categories": [
         {
-            "name": "类目0"
+            "name": "0",
+            "itemStyle": {"color": "#294172"}
+
         },
         {
-            "name": "类目1"
+            "name": "1",
+            "itemStyle": {"color": "#3c6eb4"}
         },
         {
-            "name": "类目2"
+            "name": "2",
+            "itemStyle": {"color": "#e59728"}
         },
         {
-            "name": "类目3"
+            "name": "3",
+            "itemStyle": {"color": "#db3279"}
         },
         {
-            "name": "类目4"
+            "name": "4",
+            "itemStyle": {"color": "#a07cbc"}
         },
         {
-            "name": "类目5"
+            "name": "5",
+            "itemStyle": {"color": "#51a2da"}
         },
         {
-            "name": "类目6"
+            "name": "6",
+            "itemStyle": {"color": "#79db32"}
         }
     ]
 }
