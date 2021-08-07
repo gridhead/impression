@@ -29,7 +29,7 @@ var teamdata = {
         },
         {
             "id": "back",
-            "name": "Backend/Infrastructure",
+            "name": "",
             "symbolSize": 50,
             "x": 25,
             "y": 0,
@@ -38,7 +38,7 @@ var teamdata = {
         },
         {
             "id": "fron",
-            "name": "Frontend/Design",
+            "name": "",
             "symbolSize": 50,
             "x": -25,
             "y": 0,
