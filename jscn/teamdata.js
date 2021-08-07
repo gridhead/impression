@@ -7,7 +7,8 @@ var teamdata = {
             "x": 0,
             "y": 0,
             "value": "Everything",
-            "category": 0
+            "category": 0,
+            "extra": "Websites and Apps Team"
         },
         {
             "id": "akas",
@@ -16,7 +17,8 @@ var teamdata = {
             "x": 0,
             "y": -25,
             "value": "Objective Co-lead",
-            "category": 1
+            "category": 1,
+            "extra": "Associate Software Engineer at Red Hat CPE"
         },
         {
             "id": "ramy",
@@ -25,25 +27,28 @@ var teamdata = {
             "x": 0,
             "y": 25,
             "value": "Objective Co-lead",
-            "category": 1
+            "category": 1,
+            "extra": "Contributor at Fedora Project"
         },
         {
             "id": "back",
-            "name": "",
+            "name": "Backend/Infrastructure",
             "symbolSize": 50,
             "x": 25,
             "y": 0,
             "value": "Maintain",
-            "category": 2
+            "category": 2,
+            "extra": "Backend/Infrastructure"
         },
         {
             "id": "fron",
-            "name": "",
+            "name": "Frontend/Design",
             "symbolSize": 50,
             "x": -25,
             "y": 0,
             "value": "Create",
-            "category": 2
+            "category": 2,
+            "extra": "Frontend/Design"
         },
         {
             "id": "onur",
@@ -52,7 +57,8 @@ var teamdata = {
             "x": 25,
             "y": 25,
             "value": "thunderbirdtr",
-            "category": 3
+            "category": 3,
+            "extra": "Ambassador and Packager at Fedora Project"
         },
         {
             "id": "vipu",
@@ -61,7 +67,8 @@ var teamdata = {
             "x": 25,
             "y": -25,
             "value": "siddharthvipul",
-            "category": 3
+            "category": 3,
+            "extra": "Software Engineer at Red Hat CPE"
         },
         {
             "id": "jank",
@@ -70,7 +77,8 @@ var teamdata = {
             "x": 50,
             "y": 0,
             "value": "copperi",
-            "category": 3
+            "category": 3,
+            "extra": "Contributor at Fedora Project"
         },
         {
             "id": "mich",
@@ -79,7 +87,8 @@ var teamdata = {
             "x": 42.6776695,
             "y": 17.6776695,
             "value": "misc",
-            "category": 3
+            "category": 3,
+            "extra": "Principal Systems Administrator at Red Hat OSPO"
         },
         {
             "id": "jont",
@@ -88,7 +97,8 @@ var teamdata = {
             "x": 42.6776695,
             "y": -17.6776695,
             "value": "jtrossba",
-            "category": 3
+            "category": 3,
+            "extra": "System Administration Intern at Red Hat OSPO"
         },
         {
             "id": "just",
@@ -97,7 +107,8 @@ var teamdata = {
             "x": -25,
             "y": 25,
             "value": "jflory7",
-            "category": 3
+            "category": 3,
+            "extra": "FOSS Tech Advisor at UNICEF, Advisory Board Member at Open@RIT"
         },
         {
             "id": "mari",
@@ -106,7 +117,8 @@ var teamdata = {
             "x": -25,
             "y": -25,
             "value": "riecatnor",
-            "category": 3
+            "category": 3,
+            "extra": "Fedora Community Action and Impact Coordinator"
         },
         {
             "id": "ashl",
@@ -115,7 +127,8 @@ var teamdata = {
             "x": -50,
             "y": 0,
             "value": "lilyx",
-            "category": 3
+            "category": 3,
+            "extra": "Contributor at Fedora Project"
         },
         {
             "id": "saya",
@@ -124,7 +137,8 @@ var teamdata = {
             "x": -42.6776695,
             "y": 17.6776695,
             "value": "bugsmith",
-            "category": 3
+            "category": 3,
+            "extra": "Principal Software Engineer at Red Hat"
         },
         {
             "id": "carl",
@@ -133,7 +147,8 @@ var teamdata = {
             "x": -42.6776695,
             "y": -17.6776695,
             "value": "carlschwann",
-            "category": 3
+            "category": 3,
+            "extra": "Developer at KDE Community"
         }
     ],
     "links": [
@@ -205,19 +220,27 @@ var teamdata = {
     "categories": [
         {
             "name": "0",
-            "itemStyle": {"color": "#294172"}
+            "itemStyle": {
+                "color": "#294172"
+            }
         },
         {
             "name": "1",
-            "itemStyle": {"color": "#3c6eb4"}
+            "itemStyle": {
+                "color": "#3c6eb4"
+            }
         },
         {
             "name": "2",
-            "itemStyle": {"color": "#79db32"}
+            "itemStyle": {
+                "color": "#79db32"
+            }
         },
         {
             "name": "3",
-            "itemStyle": {"color": "#79db32"}
+            "itemStyle": {
+                "color": "#79db32"
+            }
         }
     ]
 }

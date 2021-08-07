@@ -7,7 +7,8 @@ var orgndata = {
             "x": 0,
             "y": 0,
             "value": "Everything",
-            "category": 0
+            "category": 0,
+            "extra": "Everything"
         },
         {
             "id": "finf",
@@ -16,7 +17,8 @@ var orgndata = {
             "x": 0,
             "y": 25,
             "value": "Engineering",
-            "category": 1
+            "category": 1,
+            "extra": "The Infrastructure Team consists of dedicated volunteers and professionals managing the servers, building the tools and utilities, and creating new applications to make Fedora development a smoother process."
         },
         {
             "id": "fdes",
@@ -25,7 +27,8 @@ var orgndata = {
             "x": 0,
             "y": -25,
             "value": "Creativity",
-            "category": 2
+            "category": 2,
+            "extra": "Fedora Design Team, the Fedora Project's in-house creative agency covering everything from logos and branding, to icons, to print media and swag design, to UX design a usability testing and assessment."
         },
         {
             "id": "pgmt",
@@ -34,7 +37,8 @@ var orgndata = {
             "x": 21.6506351,
             "y": 12.5,
             "value": "Direction",
-            "category": 3
+            "category": 3,
+            "extra": "The team is a program management resource for other Fedora teams and backs up certain key functions of the FPgM in the event of their unavailability."
         },
         {
             "id": "join",
@@ -43,7 +47,8 @@ var orgndata = {
             "x": -21.6506351,
             "y": 12.5,
             "value": "Contributors",
-            "category": 4
+            "category": 4,
+            "extra": "The Fedora Join Special Interest Group (SIG) aims to set up and maintain channels that let prospective contributors engage with the community."
         },
         {
             "id": "cmop",
@@ -52,7 +57,8 @@ var orgndata = {
             "x": 21.6506351,
             "y": -12.5,
             "value": "Insights",
-            "category": 5
+            "category": 5,
+            "extra": "Community Operations (CommOps) provides tools, resources, and utilities for different sub-projects of Fedora to improve effective communication."
         },
         {
             "id": "ospo",
@@ -61,7 +67,8 @@ var orgndata = {
             "x": -21.6506351,
             "y": -12.5,
             "value": "Policies",
-            "category": 6
+            "category": 6,
+            "extra": "OSPO's role is to align the efforts of all relevant parts of an organization—engineering, sales, marketing, content creation—toward making open source methodologies and outputs successful."
         }
     ],
     "links": [
@@ -93,32 +100,45 @@ var orgndata = {
     "categories": [
         {
             "name": "0",
-            "itemStyle": {"color": "#294172"}
-
+            "itemStyle": {
+                "color": "#294172"
+            }
         },
         {
             "name": "1",
-            "itemStyle": {"color": "#3c6eb4"}
+            "itemStyle": {
+                "color": "#3c6eb4"
+            }
         },
         {
             "name": "2",
-            "itemStyle": {"color": "#e59728"}
+            "itemStyle": {
+                "color": "#e59728"
+            }
         },
         {
             "name": "3",
-            "itemStyle": {"color": "#db3279"}
+            "itemStyle": {
+                "color": "#db3279"
+            }
         },
         {
             "name": "4",
-            "itemStyle": {"color": "#a07cbc"}
+            "itemStyle": {
+                "color": "#a07cbc"
+            }
         },
         {
             "name": "5",
-            "itemStyle": {"color": "#51a2da"}
+            "itemStyle": {
+                "color": "#51a2da"
+            }
         },
         {
             "name": "6",
-            "itemStyle": {"color": "#79db32"}
+            "itemStyle": {
+                "color": "#79db32"
+            }
         }
     ]
 }
