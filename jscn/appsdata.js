@@ -155,25 +155,31 @@ var appsdata = {
     ],
     "categories": [
         {
-            "name": "类目0"
+            "name": "0",
+            "itemStyle": {
+                "color": "#294172"
+            }
         },
         {
-            "name": "类目1"
+            "name": "1",
+            "itemStyle": {
+                "color": "#79db32"
+            }
         },
         {
-            "name": "类目2"
+            "name": "2"
         },
         {
-            "name": "类目3"
+            "name": "3"
         },
         {
-            "name": "类目4"
+            "name": "4"
         },
         {
-            "name": "类目5"
+            "name": "5"
         },
         {
-            "name": "类目6"
+            "name": "6"
         }
     ]
 }

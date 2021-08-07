@@ -219,17 +219,28 @@ var teamdata = {
     ],
     "categories": [
         {
-            "name": "类目0",
-            "itemStyle": {"color": "#008080"}
+            "name": "0",
+            "itemStyle": {
+                "color": "#294172"
+            }
         },
         {
-            "name": "类目1"
+            "name": "1",
+            "itemStyle": {
+                "color": "#3c6eb4"
+            }
         },
         {
-            "name": "类目2"
+            "name": "2",
+            "itemStyle": {
+                "color": "#79db32"
+            }
         },
         {
-            "name": "类目3"
+            "name": "3",
+            "itemStyle": {
+                "color": "#79db32"
+            }
         }
     ]
 }

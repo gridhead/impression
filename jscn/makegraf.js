@@ -58,7 +58,7 @@ function render_graphs () {
                     data: elements.nodes,
                     links: elements.links,
                     categories: elements.categories,
-                    roam: false,
+                    roam: true,
                     label: {
                         position: 'bottom',
                         formatter: '{b}'
